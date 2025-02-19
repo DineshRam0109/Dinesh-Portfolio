@@ -18,12 +18,31 @@ import sympoquiz from "../assets/Achieve images/Symposium tech quiz .jpg"
 import IeiSeminarIot from "../assets/Achieve images/IEI seminar iot.jpg"
 import internspecial from "../assets/Achieve images/prizeintern.jpeg"
 import webstacklogo from "../assets/Achieve images/WebStack-Academy.jpg"
+import organiser from "../assets/Achieve images/Tech warfare organiser.jpg"
 import ieilogo from "../assets/Achieve images/IEI_logo.png"
 import amirtalogo from "../assets/Achieve images/amrita-vishwa-vidyapeetham-logo-india.jpg"
 import reversehackathon from "../assets/Achieve images/Amirta Reverse hackathon.jpg"
 import ieeelogo from "../assets/Achieve images/ieeelogo.jpg"
 import projectexpo from "../assets/Achieve images/IEEE project expo .jpg"
-
+import codecraze from "../assets/Achieve images/IEI Code craze.jpg"
+import fxcode from "../assets/Achieve images/FX code debugging .jpg"
+import csilogo from "../assets/Achieve images/csilogo.jpg"
+import ieinavigatemaze from "../assets/Achieve images/IEI navigating maze.jpg"
+import blockchainquiz from "../assets/Achieve images/Tech quiz blockchain.jpg"
+import naukric1 from "../assets/Achieve images/Naukri coding 1.jpg"
+import naukric2 from "../assets/Achieve images/Naukri technical quiz.jpg"
+import naukrilogo from "../assets/Achieve images/Naukri-Campus-Logo-696x316.png"
+import unstopEY from "../assets/Achieve images/Unstop EY techathon.jpg"
+import unstopflipkart from "../assets/Achieve images/Unstop Flipkart .jpg"
+import unstoplogo from "../assets/Achieve images/unstop_logo_big_1704290593661_1704290625888.jpg"
+import unstoptata from "../assets/Achieve images/Unstop tata.jpg"
+import mlarena from "../assets/Achieve images/Unstop ml arena 2.jpg"
+import velammallogo from "../assets/Achieve images/velammallogo.png"
+import velammalprojectExpo from "../assets/Achieve images/Velammal project expo.jpg"
+import iitkharagpur from "../assets/Achieve images/iit kharagpur.jpeg"
+import iitjodhapur from "../assets/Achieve images/iit jodhapur.jpeg"
+import iitlogo from "../assets/Achieve images/iitlogo.png"
+import iitlogo1 from "../assets/Achieve images/iitlogo1.png"
 
 
 const achievementsData = {
@@ -67,7 +86,7 @@ const achievementsData = {
       {
         title: "Race and Code",
         organization: "National Engineering College,Kovilpatti",
-        logo: neclogo,
+        logo: csilogo,
         image: raceandcode
       },
       {
@@ -79,13 +98,13 @@ const achievementsData = {
       {
         title: "E-Spark",
         organization: "National Engineering College,Kovilpatti",
-        logo: neclogo,
+        logo: ieeelogo,
         image: espark
       },
       {
         title: "Quantum-Quizzing",
         organization: "National Engineering College,Kovilpatti",
-        logo: neclogo,
+        logo: ieilogo,
         image: quantumquizzing
       },
       {
@@ -110,11 +129,12 @@ const achievementsData = {
         organization: "National Engineering College,Kovilpatti",
         logo: ieilogo,
         image: IeiSeminarIot
-      },{
-        title: "Nec Code Wars",
+      },
+      {
+        title: "Organiser Certificate",
         organization: "National Engineering College,Kovilpatti",
-        logo: neclogo,
-        image: neccodewars
+        logo:ieilogo,
+        image: organiser
       },
       
     ],
@@ -134,15 +154,76 @@ const achievementsData = {
       {
         title: "Code Craze",
         organization: "National Engineering College,Kovilpatti",
-        logo:ieeelogo,
-        image: projectexpo
+        logo:ieilogo,
+        image: codecraze
       },
       {
-        title: "IEEEProExpo-23",
+        title: "Code Debugging",
+        organization: "FX Engineering College,Tirunelveli",
+        logo:fxlogo,
+        image: fxcode
+      },
+      {
+        title: "Navigating Maze",
         organization: "National Engineering College,Kovilpatti",
-        logo:ieeelogo,
-        image: projectexpo
-      }
+        logo:ieilogo,
+        image: ieinavigatemaze
+      },
+      {
+        title: "Quiz on Blockchain",
+        organization: "National Engineering College,Kovilpatti",
+        logo:ieilogo,
+        image: blockchainquiz
+      },
+      {  title: "Project Expo",
+        organization: "Velammal College of Engineering,Madurai",
+        logo:velammallogo,
+        image:velammalprojectExpo
+      },
+      {
+        title: "CodeQuest",
+        organization: "Naukri",
+        logo:naukrilogo,
+        image:naukric1
+      }, 
+      {
+        title: "TechQuest",
+        organization: "Naukri",
+        logo:naukrilogo,
+        image:naukric2
+      },
+      {  title: "Flipkart Grid",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:unstopflipkart
+      },
+      {  title: "Tata Imagination Challenge",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:unstoptata
+      },
+      {  title: "EY-TECHATHON",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:unstopEY
+      },
+      {  title: "ML-ARENA",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:mlarena
+      },
+      {  title: "DataQuest",
+        organization: "IIT-Kharagpur",
+        logo:iitlogo,
+        image:iitkharagpur
+      },
+      {  title: "Code Golf",
+        organization: "IIT-Jodhpur",
+        logo:iitlogo1,
+        image:iitjodhapur
+      },
+      
+      
     ]
   };
   

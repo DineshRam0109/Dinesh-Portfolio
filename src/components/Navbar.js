@@ -27,7 +27,7 @@ const Navbar = () => {
           className="flex justify-center items-center w-fit"
         >
           <span className="ml-1 cursor-pointer text-2xl lg:text-3xl font-extrabold text-aqua tracking-wide">
-            Dinesh's Portfolio
+            Portfolio
           </span>
         </Link>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-once="false"
-          className="hidden md:mx-auto lg:flex flex-wrap items-center text-lg justify-center gap-6"
+          className="hidden md:mx-auto lg:flex flex-wrap items-center text-lg justify-center gap-4"
         >
           {Navlinks.map((item) => (
             <Link

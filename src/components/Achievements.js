@@ -7,13 +7,13 @@ const Achievements = () => {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
   return (
-    <section className="body-font bg-gray-100 py-12">
+    <section className="body-font bg-gray-100 py-2">
       <div className="p-5 mt-3 mx-auto md:mt-5 md:mx-10 lg:mx-16">
         
         {/* Heading */}
         <div id="achievements" className="flex flex-col text-center w-full mb-8">
-          <h1 className="text-5xl font-extrabold text-gray-900 mb-2">Achievements</h1>
-          <p className="text-lg font-bold text-dark-orange">Showcasing my achievements in competitions</p>
+          <h1 className="text-5xl font-extrabold text-gray-900 mb-2">Achievement</h1>
+          <p className="text-lg font-bold text-dark-orange">Showcasing my achievement in competitions</p>
         </div>
 
         {/* Category Tabs */}
@@ -22,7 +22,7 @@ const Achievements = () => {
             className={`px-6 py-2 mx-2 font-bold rounded-lg shadow-md transition-all ${selectedCategory === "winners" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"}`}
             onClick={() => setSelectedCategory("winners")}
           >
-            Winners
+            Winner
           </button>
           <button
             className={`px-6 py-2 mx-2 font-bold rounded-lg shadow-md transition-all ${selectedCategory === "participation" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"}`}

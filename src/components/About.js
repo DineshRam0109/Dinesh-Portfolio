@@ -48,6 +48,20 @@ const About = () => {
               </p>
             ))}
 
+            {/* Achievements Section */}
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="mt-6 text-lg font-medium text-blue-300"
+            >
+              <h2 className="text-2xl font-extrabold text-orange-600 mb-3">Problems Solved Count</h2>
+              <ul className="list-disc list-inside">
+                {AboutData.achievements.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+
             {/* Buttons */}
             <div
               data-aos="zoom-in"

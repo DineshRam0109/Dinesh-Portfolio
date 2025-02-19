@@ -24,8 +24,12 @@ const Navlinks = [
     link: "projects",
   },
   {
-    title: "Certifications",
+    title: "Certification",
     link: "certifications",
+  },
+  {
+    title: "Achievement",
+    link: "achievements",
   },
   {
     title: "Contact",
