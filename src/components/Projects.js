@@ -80,7 +80,7 @@ const Projects = () => {
                 </div>
                 <div className="flex gap-7 justify-center items-center my-7 text-2xl">
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-white"
+                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-aqua"
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -88,7 +88,7 @@ const Projects = () => {
                     <FaGithub />
                   </a>
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-white"
+                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-aqua"
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
