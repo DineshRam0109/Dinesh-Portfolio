@@ -10,7 +10,7 @@ const AboutData = {
   achievements: [
     "Completed 10+ projects",
     "Solved 550+ problems on LeetCode",
-    "Solved 2700+ problems and secured 690th rank in SkillRack",
+    "Solved 2700+ problems and secured 670th rank in SkillRack",
     "Completed 100+ problems on GeeksForGeeks"
   ]
 };

@@ -10,6 +10,7 @@ import Guvilogo from "../assets/certify images/givilogo.jpg";
 import Guvi from "../assets/certify images/Guvi learnathon.jpg";
 import infosys1 from "../assets/certify images/Infosys dbms.jpg";
 import infosys2 from "../assets/certify images/infosys css_page-0001.jpg";
+import infosys3 from "../assets/certify images/infosys angular.jpg"
 import kaggle from "../assets/certify images/Kaggle pandas.jpg";
 import kagglelogo from "../assets/certify images/kagglelogo.png";
 import linkedin from "../assets/certify images/LinkedIn gen AI.jpg";
@@ -85,6 +86,12 @@ const certificationsData = [
         organization: "Infosys Springboard",
         logo: springboard,
         image: infosys2
+      },
+      {
+        title: "Angular",
+        organization: "Infosys Springboard",
+        logo: springboard,
+        image: infosys3
       },
       {
         title: "LinkedIn Gen AI",

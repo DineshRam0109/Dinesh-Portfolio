@@ -44,8 +44,8 @@ const SkillsData = [
     image: require("../assets/Images/node.png"),
   },
   {
-    name: "Next",
-    image: require("../assets/Images/next.png"),
+    name: "Angular",
+    image: require("../assets/Images/th.jpg"),
   },
   {
     name: "Tailwind",
