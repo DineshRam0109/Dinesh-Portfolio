@@ -4,12 +4,14 @@ import {
   BiLogoJavascript
 } from "react-icons/bi";
 import {TbBrandNodejs} from "react-icons/tb";
-import {SiTableau,SiCplusplus, SiStreamlit , SiExpress} from "react-icons/si";
+import {SiTableau,SiCplusplus, SiStreamlit , SiExpress,SiAngular} from "react-icons/si";
 
 
 import jobportallogo from "../assets/Achieve images/jobportalimage.jpg"
 import feesmanagement from "../assets/Achieve images/fees-management.png"
 import homelylogo from "../assets/Achieve images/homelylogo.jpg"
+import zohologo from "../assets/Achieve images/zoho-logo.png"
+import wordchar from "../assets/Achieve images/wordchar.jpg"
 import portfolioimg from "../assets/Achieve images/portfolioimg.jpg"
 import medicinelogo from "../assets/Achieve images/medicinelogo.jpg"
 import quizease from "../assets/Achieve images/quizease.jpg"
@@ -21,6 +23,8 @@ import tictactoelogo from "../assets/Achieve images/tictactoelogo.png"
 import friendlychatbot from "../assets/Achieve images/friendly-chatbot.jpg"
 import movierecommend from "../assets/Achieve images/movierecommend.jpg"
 import facedetection from "../assets/Achieve images/facedetection.webp"
+import notify from "../assets/Achieve images/notify.png"
+import auth from "../assets/Achieve images/auth.jpg"
 import clientcommunication from "../assets/Achieve images/clientcommunication.png"
 import weather from "../assets/Achieve images/weather.webp"
 import gpaclculator from "../assets/Achieve images/gpacalculator.png"
@@ -128,8 +132,18 @@ const ProjectsData = [
     demo: "https://public.tableau.com/app/profile/dinesh.ram.a4642/viz/AmazonDineshTableau/Dashboard3",
     category: "Data Visualization",
   },
-  {
+    {
     id: "11",
+    name: "CliqTrix - Zobot",
+    image: zohologo,
+    icons: [],
+    description: "Built No code Bot for Appointment Booking System in Zoho-Cliqtrix 2024",
+    github: "https://github.com/DineshRam0109/Zoho-Cliqtrix-2024---Zobot-Cliqsters-JD-",
+    demo: "https://drive.google.com/file/d/1634Oof7T-9Zi-b4fVyvwR5F_PCG6n60h/view?usp=sharing",
+    category: "Mini Projects",
+  },
+  {
+    id: "12",
     name: "Tic-Tac-Toe",
     image:tictactoelogo,
     icons: [BiLogoPython],
@@ -139,7 +153,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "12",
+    id: "13",
     name: "Chatbot",
     image:friendlychatbot,
     icons: [BiLogoPython],
@@ -149,7 +163,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "13",
+    id: "14",
     name: "Movie Recommendation",
     image:movierecommend,
     icons: [BiLogoPython],
@@ -159,7 +173,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "14",
+    id: "15",
     name: "ChatterLink",
     image:clientcommunication,
     icons: [SiCplusplus],
@@ -169,7 +183,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "15",
+    id: "16",
     name: "Face Detection",
     image:facedetection,
     icons: [BiLogoPython],
@@ -180,7 +194,7 @@ const ProjectsData = [
   },
  
   {
-    id: "16",
+    id: "17",
     name: "Real-Time Weather Checker",
     image:weather,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
@@ -190,7 +204,27 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "17",
+    id: "18",
+    name: "SecureAuth",
+    image:auth,
+    icons: [TbBrandNodejs],
+    description: "JWT-based secure user authentication system (Node.js)",
+    github: "https://github.com/DineshRam0109/JWT-Authentication-for-login-form",
+    demo: "https://drive.google.com/drive/folders/1w_Nd7CWbuDmEyVlUBk04NRvN3vImqNg0?usp=sharing",
+    category: "Mini Projects",
+  },
+  {
+    id: "19",
+    name: "Notify-X",
+    image:notify,
+    icons: [TbBrandNodejs,SiExpress],
+    description: "Real-time email/SMS alert system (Node.js, Express)",
+    github: "https://github.com/DineshRam0109/NotifyX",
+    demo: "https://gpa-calculator-vwfc.vercel.app/",
+    category: "Mini Projects",
+  },
+  {
+    id: "20",
     name: "GPA Calculator",
     image:gpaclculator,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
@@ -200,12 +234,22 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "18",
+    id: "21",
     name: "BMI Calculator",
     image:bmilogo,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
     description: "Determines body mass index based on weight and height",
     github: "https://github.com/DineshRam0109/BMI-Calculator-Javascript",
+    demo: "https://drive.google.com/drive/folders/12SAR9Bqd8DScq6CF_v_YzXYetvTt-7NX?usp=sharing",
+    category: "Mini Projects",
+  },
+   {
+    id: "22",
+    name: "Word Character Count",
+    image:wordchar,
+    icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript,SiAngular],
+    description: "Calculate Words,Characters and many other things by giving input",
+    github: "https://github.com/DineshRam0109/Angular-Routing",
     demo: "https://drive.google.com/drive/folders/12SAR9Bqd8DScq6CF_v_YzXYetvTt-7NX?usp=sharing",
     category: "Mini Projects",
   },

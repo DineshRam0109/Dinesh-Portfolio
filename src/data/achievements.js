@@ -1,4 +1,5 @@
 import neclogo from "../assets/Achieve images/nec logo.jpg"
+import thirdrank from "../assets/Achieve images/2nd Year 3rd Rank.jpg"
 import fxlogo from "../assets/Achieve images/fx logo.jpg"
 import citlogo from "../assets/Achieve images/cit logo.png"
 import eshwarlogo from "../assets/Achieve images/eshwar logo.png"
@@ -37,6 +38,7 @@ import unstopflipkart from "../assets/Achieve images/Unstop Flipkart .jpg"
 import unstoplogo from "../assets/Achieve images/unstop_logo_big_1704290593661_1704290625888.jpg"
 import unstoptata from "../assets/Achieve images/Unstop tata.jpg"
 import mlarena from "../assets/Achieve images/Unstop ml arena 2.jpg"
+import bitbybit from "../assets/Achieve images/Unstop VJTI Mumbai.jpg";
 import velammallogo from "../assets/Achieve images/velammallogo.png"
 import velammalprojectExpo from "../assets/Achieve images/Velammal project expo.jpg"
 import iitkharagpur from "../assets/Achieve images/iit kharagpur.jpeg"
@@ -76,6 +78,12 @@ const achievementsData = {
         organization: "Sri Eshwar College of Engineering,Coimbatore",
         logo: eshwarlogo,
         image: eshwarquiz
+      },
+        {
+        title: "3rd Rank Holder (2023-2024)",
+        organization: "National Engineering College,Kovilpatti",
+        logo: neclogo,
+        image: thirdrank
       },
       {
         title: "Intern Special Prize",
@@ -211,6 +219,11 @@ const achievementsData = {
         organization: "Unstop",
         logo:unstoplogo,
         image:mlarena
+      },
+         {  title: "Bit-By-Bit",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:bitbybit
       },
       {  title: "DataQuest",
         organization: "IIT-Kharagpur",
