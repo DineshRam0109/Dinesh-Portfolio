@@ -43,10 +43,7 @@ const SkillsData = [
     name: "Node",
     image: require("../assets/Images/node.png"),
   },
-  {
-    name: "Angular",
-    image: require("../assets/Images/th.jpg"),
-  },
+  
   {
     name: "Tailwind",
     image: require("../assets/Images/tailwind.png"),

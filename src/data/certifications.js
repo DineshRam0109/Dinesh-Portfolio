@@ -159,7 +159,7 @@ const certificationsData = [
         organization: "Scalar",
         logo: scalar,
         image: scalar1
-      },
+      }
 
   ];
   
