@@ -38,8 +38,8 @@ const ProjectsData = [
     image:jobportallogo,
     icons: [BiLogoMongodb,SiExpress,BiLogoReact,TbBrandNodejs,BiLogoTailwindCss],
     description: "Effortless hiring and job searching in one place",
-    github: "",
-    demo: "",
+    github: "https://github.com/DineshRam0109/HireConnect-Centralised-Hiring-Platform",
+    demo: "https://hireconnect-centralised-hiring-platform-q1ay.onrender.com/",
     category: "MERN Stack",
   },
   {
@@ -48,8 +48,8 @@ const ProjectsData = [
     image:feesmanagement,
     icons: [BiLogoMongodb,SiExpress,BiLogoReact,TbBrandNodejs],
     description: "Effective and Adaptive Payment Gateway for ERP System (Ongoing)",
-    github: "",
-    demo: "",
+    github: "https://github.com/DineshRam0109/GatePay-College-Fees-Management-System",
+    demo: "https://nec.edu.in/SampleERP/",
     category: "MERN Stack",
   },
   {
