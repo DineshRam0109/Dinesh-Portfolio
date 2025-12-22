@@ -4,18 +4,18 @@ import {
   BiLogoJavascript
 } from "react-icons/bi";
 import {TbBrandNodejs} from "react-icons/tb";
-import {SiTableau,SiCplusplus, SiStreamlit , SiExpress,SiAngular} from "react-icons/si";
+import {SiTableau,SiCplusplus, SiStreamlit , SiExpress,SiAngular,SiMysql} from "react-icons/si";
 
 
 import jobportallogo from "../assets/Achieve images/jobportalimage.jpg"
 import feesmanagement from "../assets/Achieve images/fees-management.png"
 import homelylogo from "../assets/Achieve images/homelylogo.jpg"
+import alumnilogo from "../assets/Achieve images/alumni_img.png"
 import zohologo from "../assets/Achieve images/zoho-logo.png"
 import wordchar from "../assets/Achieve images/wordchar.jpg"
 import portfolioimg from "../assets/Achieve images/portfolioimg.jpg"
 import medicinelogo from "../assets/Achieve images/medicinelogo.jpg"
 import quizease from "../assets/Achieve images/quizease.jpg"
-import voxifylogo from "../assets/Achieve images/voxifylogo.jpg"
 import chatbotlogo from "../assets/Achieve images/chatbotlogo.jpg"
 import ipllogo from "../assets/Achieve images/IPL-Logo.avif"
 import amazonlogo from "../assets/Achieve images/amazon-4k-logo-qhd.jpg"
@@ -46,20 +46,20 @@ const ProjectsData = [
     id: "2",
     name: "GatePay",
     image:feesmanagement,
-    icons: [BiLogoMongodb,SiExpress,BiLogoReact,TbBrandNodejs],
-    description: "Effective and Adaptive Payment Gateway for ERP System (Ongoing)",
+    icons: [SiMysql,SiExpress,BiLogoReact,TbBrandNodejs],
+    description: "Effective and Adaptive Payment Gateway for ERP System",
     github: "https://github.com/DineshRam0109/GatePay-College-Fees-Management-System",
     demo: "https://nec.edu.in/SampleERP/",
     category: "MERN Stack",
   },
   {
     id: "3",
-    name: "Homely Hub",
-    image: homelylogo,
-    icons: [BiLogoMongodb,SiExpress,BiLogoReact,TbBrandNodejs],
-    description: "People find and book unique places to stay while traveling",
-    github: "",
-    demo: "",
+    name: "Alumnet",
+    image: alumnilogo,
+    icons: [SiMysql,SiExpress,BiLogoReact,TbBrandNodejs],
+    description: "Cross-school alumni networking platform",
+    github: "https://github.com/DineshRam0109/School-Alumni-Portal",
+    demo: "https://drive.google.com/file/d/1ofA4-QMy6soST9LW6mae5jzEmLh_7L3c/view",
     category: "MERN Stack",
   },
   {
@@ -72,6 +72,7 @@ const ProjectsData = [
     demo: "https://dineshramresponsiveportfolio.vercel.app/",
     category: "MERN Stack",
   },
+
   {
     id: "5",
     name: "MediMate",
@@ -92,18 +93,9 @@ const ProjectsData = [
     demo: "https://drive.google.com/file/d/1B0HKq_cdYeigcZIJ5_2iW_GUO5qNZ52w/view?usp=sharing",
     category: "AI",
   },
-  {
-    id: "7",
-    name: "Voxify",
-    image:voxifylogo,
-    icons: [BiLogoPython],
-    description: "Speak, translate, and communicate seamlessly in real-time with flawless accuracy",
-    github: "https://github.com/DineshRam0109/Voxify",
-    demo: "",
-    category: "AI",
-  },
+ 
    {
-    id: "8",
+    id: "7",
     name: "PDFGenie",
     image:chatbotlogo,
     icons: [BiLogoPython,SiStreamlit],
@@ -113,7 +105,7 @@ const ProjectsData = [
     category: "AI",
   },
   {
-    id: "9",
+    id: "8",
     name: "IPL ANALYSIS",
     image:ipllogo,
     icons: [SiTableau],
@@ -123,7 +115,7 @@ const ProjectsData = [
     category: "Data Visualization",
   },
   {
-    id: "10",
+    id: "9",
     name: "Amazon Sales",
     image:amazonlogo,
     icons: [SiTableau],
@@ -133,7 +125,7 @@ const ProjectsData = [
     category: "Data Visualization",
   },
     {
-    id: "11",
+    id: "10",
     name: "CliqTrix - Zobot",
     image: zohologo,
     icons: [],
@@ -143,7 +135,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "12",
+    id: "11",
     name: "Tic-Tac-Toe",
     image:tictactoelogo,
     icons: [BiLogoPython],
@@ -153,7 +145,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "13",
+    id: "12",
     name: "Chatbot",
     image:friendlychatbot,
     icons: [BiLogoPython],
@@ -163,7 +155,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "14",
+    id: "13",
     name: "Movie Recommendation",
     image:movierecommend,
     icons: [BiLogoPython],
@@ -173,7 +165,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "15",
+    id: "14",
     name: "ChatterLink",
     image:clientcommunication,
     icons: [SiCplusplus],
@@ -183,7 +175,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "16",
+    id: "15",
     name: "Face Detection",
     image:facedetection,
     icons: [BiLogoPython],
@@ -194,7 +186,7 @@ const ProjectsData = [
   },
  
   {
-    id: "17",
+    id: "16",
     name: "Real-Time Weather Checker",
     image:weather,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
@@ -204,7 +196,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "18",
+    id: "17",
     name: "SecureAuth",
     image:auth,
     icons: [TbBrandNodejs],
@@ -214,17 +206,17 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "19",
+    id: "18",
     name: "Notify-X",
     image:notify,
     icons: [TbBrandNodejs,SiExpress],
     description: "Real-time email/SMS alert system (Node.js, Express)",
     github: "https://github.com/DineshRam0109/NotifyX",
-    demo: "https://gpa-calculator-vwfc.vercel.app/",
+    demo: "",
     category: "Mini Projects",
   },
   {
-    id: "20",
+    id: "19",
     name: "GPA Calculator",
     image:gpaclculator,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
@@ -234,7 +226,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
   {
-    id: "21",
+    id: "20",
     name: "BMI Calculator",
     image:bmilogo,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript],
@@ -244,7 +236,7 @@ const ProjectsData = [
     category: "Mini Projects",
   },
    {
-    id: "22",
+    id: "21",
     name: "Word Character Count",
     image:wordchar,
     icons: [BiLogoHtml5,BiLogoCss3,BiLogoJavascript,SiAngular],

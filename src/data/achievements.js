@@ -45,6 +45,12 @@ import iitkharagpur from "../assets/Achieve images/iit kharagpur.jpeg"
 import iitjodhapur from "../assets/Achieve images/iit jodhapur.jpeg"
 import iitlogo from "../assets/Achieve images/iitlogo.png"
 import iitlogo1 from "../assets/Achieve images/iitlogo1.png"
+import princelogo from "../assets/Achieve images/prince.jpg"
+import conference from "../assets/Achieve images/Conference.jpeg";
+import Adobe_Hackathon from "../assets/Achieve images/Adobe_Hackathon.jpeg";
+import tvscredit from "../assets/Achieve images/TvsCredit.jpeg";
+import loreal from "../assets/Achieve images/LoReal.jpeg";
+import AdobeLogo from "../assets/Achieve images/AdobeLogo.jpeg";
 
 
 const achievementsData = {
@@ -61,30 +67,32 @@ const achievementsData = {
         logo: citlogo,
         image: citcodedebug
       },
+
+          {
+        title: "3rd Rank Holder (2023-2024)",
+        organization: "National Engineering College, Kovilpatti",
+        logo: neclogo,
+        image: thirdrank
+      },
       {
         title: "Treasure Hunt",
-        organization: "FX Engineering College,Tirunelveli",
+        organization: "FX Engineering College, Tirunelveli",
         logo: fxlogo,
         image: fxtressurehunt
       },
       {
         title: "Innovate and Inspire",
-        organization: "K.Ramakrishnan College of Engineering,Trichy",
+        organization: "K.Ramakrishnan College of Engineering, Trichy",
         logo: ramakrishnalogo,
         image: unstopramakrishna
       },
       {
         title: "Technical Quiz",
-        organization: "Sri Eshwar College of Engineering,Coimbatore",
+        organization: "Sri Eshwar College of Engineering, Coimbatore",
         logo: eshwarlogo,
         image: eshwarquiz
       },
-        {
-        title: "3rd Rank Holder (2023-2024)",
-        organization: "National Engineering College,Kovilpatti",
-        logo: neclogo,
-        image: thirdrank
-      },
+    
       {
         title: "Intern Special Prize",
         organization: "Web Stack Academy",
@@ -93,98 +101,103 @@ const achievementsData = {
       },
       {
         title: "Race and Code",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: csilogo,
         image: raceandcode
       },
       {
         title: "IGNITION-25 Code Relay",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: neclogo,
         image: coderelay
       },
       {
         title: "E-Spark",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: ieeelogo,
         image: espark
       },
       {
         title: "Quantum-Quizzing",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: ieilogo,
         image: quantumquizzing
       },
       {
         title: "Coding and Decoding",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: neclogo,
         image: firstyearcoding
       }, {
         title: "Nec Code Wars",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: neclogo,
         image: neccodewars
       },
       {
         title: "Symposium Quiz ",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: neclogo,
         image: sympoquiz
       },
       {
         title: "IEI-Seminar as Speaker",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo: ieilogo,
         image: IeiSeminarIot
       },
       {
         title: "Organiser Certificate",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo:ieilogo,
         image: organiser
       },
-      
+         {
+        title: "Conference Certificate",
+        organization: "Prince Vasudevan College, Chennai",
+        logo: princelogo,
+        image: conference
+      }
     ],
     participation: [
       {
         title: "Reverse Hackathon",
-        organization: "Amrita Vishwa Vidyapeetham,Chennai",
+        organization: "Amrita Vishwa Vidyapeetham, Chennai",
         logo: amirtalogo,
         image: reversehackathon
       },
       {
         title: "IEEEProExpo-23",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo:ieeelogo,
         image: projectexpo
       },
       {
         title: "Code Craze",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo:ieilogo,
         image: codecraze
       },
       {
         title: "Code Debugging",
-        organization: "FX Engineering College,Tirunelveli",
+        organization: "FX Engineering College, Tirunelveli",
         logo:fxlogo,
         image: fxcode
       },
       {
         title: "Navigating Maze",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo:ieilogo,
         image: ieinavigatemaze
       },
       {
         title: "Quiz on Blockchain",
-        organization: "National Engineering College,Kovilpatti",
+        organization: "National Engineering College, Kovilpatti",
         logo:ieilogo,
         image: blockchainquiz
       },
       {  title: "Project Expo",
-        organization: "Velammal College of Engineering,Madurai",
+        organization: "Velammal College of Engineering, Madurai",
         logo:velammallogo,
         image:velammalprojectExpo
       },
@@ -235,6 +248,21 @@ const achievementsData = {
         logo:iitlogo1,
         image:iitjodhapur
       },
+       {  title: "Adobe Hackathon",
+        organization: "Unstop",
+        logo:AdobeLogo,
+        image:Adobe_Hackathon
+      },
+       {  title: "Tvs Credit",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:tvscredit
+      },
+       {  title: "LoReal Brandstorm",
+        organization: "Unstop",
+        logo:unstoplogo,
+        image:loreal
+      }
       
       
     ]

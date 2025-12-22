@@ -9,7 +9,7 @@ const AboutData = {
   ],
   achievements: [
     "Completed 10+ projects",
-    "Solved 950+ problems on LeetCode",
+    "Solved 1000+ problems on LeetCode",
     "Solved 2900+ problems and secured 560th rank in SkillRack",
     "Completed 280+ problems on GeeksForGeeks"
   ]

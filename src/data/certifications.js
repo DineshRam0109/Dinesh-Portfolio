@@ -33,6 +33,7 @@ import tableau from "../assets/certify images/Tableau.jpg";
 
 
 
+
 const certificationsData = [
     {
       title: "AI Essentials",
