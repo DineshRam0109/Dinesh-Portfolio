@@ -6,7 +6,6 @@ import {
 import {TbBrandNodejs} from "react-icons/tb";
 import {SiTableau,SiCplusplus, SiStreamlit , SiExpress,SiAngular,SiMysql} from "react-icons/si";
 
-
 import jobportallogo from "../assets/Achieve images/jobportalimage.jpg"
 import feesmanagement from "../assets/Achieve images/fees-management.png"
 import homelylogo from "../assets/Achieve images/homelylogo.jpg"
@@ -59,7 +58,7 @@ const ProjectsData = [
     icons: [SiMysql,SiExpress,BiLogoReact,TbBrandNodejs],
     description: "Cross-school alumni networking platform",
     github: "https://github.com/DineshRam0109/School-Alumni-Portal",
-    demo: "https://drive.google.com/file/d/1ofA4-QMy6soST9LW6mae5jzEmLh_7L3c/view",
+    demo: "https://school-alumni-portal-frontend.vercel.app/",
     category: "MERN Stack",
   },
   {
