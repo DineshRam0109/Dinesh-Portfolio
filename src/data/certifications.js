@@ -24,6 +24,7 @@ import nptel4 from "../assets/certify images/NPTEL Software Testing.jpg";
 import nptel5 from "../assets/certify images/NPTEL Iot.jpg";
 import nptel6 from "../assets/certify images/NPTEL IIOT 4.0.jpg";
 import scalar1 from "../assets/certify images/Scalar dbms.png";
+import LinkedinJava from "../assets/certify images/LinkedIn Java.jpg";
 import scalar from "../assets/certify images/scaler.avif";
 import sololearn from "../assets/certify images/Sololearn C.png";
 import sololearnlogo from "../assets/certify images/sololearn8062.jpg";
@@ -107,6 +108,13 @@ const certificationsData = [
         logo: linkedinlogo,
         image: linkedin
       },
+       {
+        title: "LinkedIn Java Oracle",
+        organization: "Linkedin Learning",
+        logo: linkedinlogo,
+        image: LinkedinJava
+      },
+    
       {
         title: "Python for Data Science",
         organization: "Great Learning",
