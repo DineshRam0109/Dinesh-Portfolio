@@ -8,7 +8,6 @@ import {SiTableau,SiCplusplus, SiStreamlit , SiExpress,SiAngular,SiMysql} from "
 
 import jobportallogo from "../assets/Achieve images/jobportalimage.jpg"
 import feesmanagement from "../assets/Achieve images/fees-management.png"
-import homelylogo from "../assets/Achieve images/homelylogo.jpg"
 import alumnilogo from "../assets/Achieve images/alumni_img.png"
 import zohologo from "../assets/Achieve images/zoho-logo.png"
 import wordchar from "../assets/Achieve images/wordchar.jpg"

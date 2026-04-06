@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import EducationData from "../data/education";
 import Wave from "./Wave";
 
