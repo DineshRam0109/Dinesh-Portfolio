@@ -3,7 +3,7 @@ const ProfileData = {
   name: "Dinesh Ram A",
   professions: ["Full-Stack Developer","AI Enthusiast","MERN Stack Developer","C++ Programmer","Java Programmer"],
   resume:
-    "https://drive.google.com/file/d/1VfUbFbEN1GGZcuz7WohTSii4vXF1b8Lk/view?usp=sharing",
+    "https://drive.google.com/file/d/1KonkS3FR7nRumwU2V1STFq8gRhpfxrzd/view?usp=sharing",
 };
 
 export default ProfileData;

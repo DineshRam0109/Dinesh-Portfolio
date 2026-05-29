@@ -1,7 +1,7 @@
 const AboutData = {
   image: require("../assets/Images/about.png"),
   description: [
-    "I am a tech enthusiast who thrives at the intersection of Artificial Intelligence, Full Stack Development and Data Science",
+    "I am a tech enthusiast who thrives at the intersection of Artificial Intelligence and Full Stack Development",
     "💡 AI & Data Science: I transform raw data into actionable insights, leveraging Machine Learning, Deep Learning and NLP to drive smarter decisions.",
     "💻 Full Stack & MERN: From sleek React frontends to robust Node.js & MongoDB backends, I build seamless and scalable web applications.",
     "📊 Data Visualization: Numbers tell stories and I bring them to life with Tableau for compelling insights.",
@@ -9,7 +9,7 @@ const AboutData = {
   ],
   achievements: [
     "Completed 10+ projects",
-    "Solved 1080+ problems on LeetCode with Streak of 645 days",
+    "Solved 1130+ problems on LeetCode with Streak of 700 days",
     "Solved 2900+ problems and secured 560th rank in SkillRack",
     "Completed 280+ problems on GeeksForGeeks"
   ]

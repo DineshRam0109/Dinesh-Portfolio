@@ -51,10 +51,20 @@ import Adobe_Hackathon from "../assets/Achieve images/Adobe_Hackathon.jpeg";
 import tvscredit from "../assets/Achieve images/TvsCredit.jpeg";
 import loreal from "../assets/Achieve images/LoReal.jpeg";
 import AdobeLogo from "../assets/Achieve images/AdobeLogo.jpeg";
+import tcslogo from "../assets/Achieve images/tcslogo.webp"
+import codevita from "../assets/Achieve images/TCS CodeVita Season 13 Certificate - dineshram0109.jpg"
+import TribhuvanUniversityLogo from "../assets/Achieve images/TribhuvanUniversity.png"
+import ConferenceHireconnect from "../assets/Achieve images/ConferenceHireconnect.jpg"
 
 
 const achievementsData = {
     winners: [
+      {
+        title: "TCS CodeVita 2026",
+        organization: "Tata Consultancy Services",
+        logo: tcslogo,
+        image: codevita
+      },
       {
         title: "Ideathon",
         organization: "Coimbatore Institute of Technology",
@@ -153,10 +163,16 @@ const achievementsData = {
         image: organiser
       },
          {
-        title: "Conference Certificate",
+        title: "ICSIE Conference",
         organization: "Prince Vasudevan College, Chennai",
         logo: princelogo,
         image: conference
+      },
+       {
+        title: "ICICT-2026 Conference",
+        organization: "Tribhuvan University, Nepal",
+        logo: TribhuvanUniversityLogo,
+        image: ConferenceHireconnect
       }
     ],
     participation: [

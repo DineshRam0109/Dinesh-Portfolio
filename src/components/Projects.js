@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaPlayCircle } from "react-icons/fa";
 import ProjectsData from "../data/projects";
 import Wave from "./Wave";
 
@@ -63,12 +63,12 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.name}
-                className="h-80 object-cover rounded-4 shadow-xl transition-all duration-300 ease-in-out"
+                className="h-80 object-cover rounded-lg shadow-xl transition-all duration-300 ease-in-out"
               />
               <h3 className="text-2xl font-bold text-darkblue mt-4 text-center">
                 {project.name}
               </h3>
-              <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue ">
+              <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue">
                 <h3 className="text-2xl font-bold text-aqua mb-2">{project.name}</h3>
                 <p className="px-2 text-lg text-white">{project.description}</p>
                 <div className="flex flex-wrap items-center gap-3 mt-3">
@@ -79,22 +79,42 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-7 justify-center items-center my-7 text-2xl">
+
+                  {/* GitHub — always shown */}
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-aqua"
+                    className="text-darkblue text-xl bg-aqua rounded-full p-2 transition-colors duration-300 hover:text-aqua hover:bg-white"
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="View Source Code"
                   >
                     <FaGithub />
                   </a>
+
+                  {/* Video — only shown if project.video exists */}
+                  {project.video && (
+                    <a
+                      className="text-white text-xl bg-red-500 rounded-full p-2 transition-colors duration-300 hover:bg-red-400"
+                      href={project.video}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Watch Demo Video"
+                    >
+                      <FaPlayCircle />
+                    </a>
+                  )}
+
+                  {/* Live Demo — always shown */}
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2 transition-colors duration-300 bg-aqua hover:text-aqua"
+                    className="text-darkblue text-xl bg-aqua rounded-full p-2 transition-colors duration-300 hover:text-aqua hover:bg-white"
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="Live Demo"
                   >
                     <FaExternalLinkAlt className="p-[1px]" />
                   </a>
+
                 </div>
               </div>
             </div>
