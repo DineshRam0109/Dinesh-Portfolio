@@ -18,7 +18,7 @@ const EducationData = [
       institution: "National Engineering College",
       location: "Kovilpatti,TamilNadu",
       year: "2022-2026",
-      score: "CGPA: 9.15"
+      score: "CGPA: 9.17"
     }
   ];
   
